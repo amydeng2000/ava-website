@@ -1,0 +1,86 @@
+body {
+	background-image: url('ava.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	/* font-family: Arial, sans-serif; */
+    font-family: Brush Script MT;
+	font-size: 24px;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+}
+
+h1 {
+	font-size: 120px;
+	margin: 0;
+}
+
+p {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-top: 20px;
+}
+
+button {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 24px;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: rgb(250,230,158);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-position: center right 15%;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        padding: 0;
+      }
+
+    /* h1 {
+        font-size: 120px;
+        padding: 0;
+    }
+
+    p {
+        font-size: 48px;
+    }
+
+    button {
+        font-size: 48px;
+    } */
+  }
